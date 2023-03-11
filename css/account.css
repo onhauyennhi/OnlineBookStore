@@ -1,0 +1,51 @@
+.account-table{
+    width: 100%;
+    min-height: 830px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 2px rgb(0 0 0 / 50%);
+    padding: 30px 50px 10px;
+    overflow-x: auto;
+}
+
+.content-account{
+    width: 90%;
+    padding: 40px 40px 0px;
+    margin: 0 auto;
+    height: auto;
+}
+.account-table h1 {
+    text-align: center;
+}
+#accountlist{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+#account table, th, td {
+    border: 1px solid #333;
+}
+.search-account-bar{
+    display: flex;
+    position: relative;
+}
+.search-account-bar input[type="text"] {
+    height: 40px;
+    width: 1000px;
+    padding: 0 15px;
+    outline: none;
+}
+.search-account-bar button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    background-color: #B90E0A;
+    border: none;
+    cursor: pointer;
+}
+.content-introduce {
+    width: 80%;
+    margin: 0 auto;
+}

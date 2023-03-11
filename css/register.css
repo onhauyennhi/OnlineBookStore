@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+}
+.register-wrapper{
+    width: 100%;
+    margin: 50px auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formRegister{
+    position:relative;
+    width: 100%;
+    max-width: 400px;
+    padding:80px 40px 40px;
+    background-color:white;
+    color:#333;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+.formRegister h1{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 38px;
+    color:#333;
+}
+.input-gr{
+    position: relative;
+}
+.input-gr input{
+    width: 100%;
+    padding:10px 0;
+    font-size:20px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border:none;
+    color: inherit;
+    background-color: transparent;
+    border-bottom: 1px solid #333;
+    outline:none;
+}
+.input-gr label{
+    position: absolute;
+    top:0;
+    left:0;
+    padding:10px 0;
+    font-size:21px;
+    transition: 0.4s ease-out;
+}
+.btnSubmit{
+    display:block;
+    margin-left:auto;
+    outline:none;
+    border:none;
+    background:#333;
+    color:white;
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    padding:10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnSubmit:hover{
+    background-color: #28135d;
+}
+.toLogin{
+    color:red;
+    transition: ease-in-out 0.2s;
+}
+.toLogin:hover{
+    color:#28135d;
+}
+.has-error{
+    color:red;
+}
+.header {
+    background-color: #28135d;
+    -webkit-box-shadow: 0px 12px 16px -15px rgb(0 0 0 / 58%);
+    -moz-box-shadow: 0px 12px 16px -15px rgba(0, 0, 0, 0.58);
+    box-shadow: 0px 12px 16px -15px rgb(0 0 0 / 58%);
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header__nav {
+    display: flex;
+    align-items: center;
+}
+.header .header__nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-family: rr;
+    transition: 0.25s ease in out;
+    -webkit-transition: 0.4s ease in out;
+}

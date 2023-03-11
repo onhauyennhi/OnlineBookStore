@@ -1,0 +1,284 @@
+.content-product-detail{
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+.content-product-detail-img{
+    width: 50%;
+    margin: 0 auto;
+}
+.content-product-detail-bigimg{
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.content-product-detail-bigimg img{
+    width: 100%;
+    height: 400px;
+}
+.content-product-detail-bigimg img:hover{
+    transform: scale(1.05);
+}
+
+.content-product-detail-info{
+    width: 50%;
+    padding: 0 50px;
+}
+
+.product-option{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-product-option{
+    width:150px;
+    height: auto;
+    padding:10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #555555;
+    border-radius: 10px;
+}
+.box-product-option:hover{
+    background: #d70018;
+    color: #fff;
+}
+.product-detail-name{
+    width: 100%;
+    margin-bottom: 40px;
+    color: #FC6A03;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.content-product-detail-config{
+    width: 100%;
+    padding: 20px;
+    border-top: 2px solid black;
+}
+.product-name>h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+.product-id{
+    width: 100%;
+    color: #555555;
+}
+.product-price{
+    width: 100%;
+}
+.product-price p{
+    font-size: 30px;
+    color:#d70018;
+    font-weight: bold;
+}
+.product-color{
+    width: 100%;
+    margin: 20px 0;
+}
+.product-color-text{
+    width: 100%;
+}
+.product-quantity{
+    width: 100%;
+    margin:20px 0;
+}
+.product-quantity-text{
+    width: 100%;
+}
+.product-quantity-text>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-quantity input{
+    width: 100px;
+    height: 40px;
+}
+.product-color-text>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.box-product-color{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-color-div{
+    width: 80px;
+    cursor: pointer;
+    height: auto;
+    margin: 20px 0;
+    padding: 20px 0;
+    margin-right: 10px;
+    border: 1px solid #555555;
+    border-radius: 10px;
+}
+.product-color-div:hover{
+    background: #d70018;
+    color:#fff;
+}
+.product-info-button{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.product-chinhsach-baohanh .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-chinhsach-banhang .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-info-button-top button{
+    display: block;
+    width: 47%;
+    background: #28135d;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    height: auto;
+    cursor: pointer;
+    padding: 20px 0;
+    margin: 40px auto;
+}
+
+.product-info-button-top button>p>span{
+    color: yellow;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.product-info-button-bottom{
+    width: 100%;
+}
+.product-info-button-bottom button{
+    background: #28135d;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    height: auto;
+    cursor: pointer;
+    padding: 20px 0;
+}
+.product-info-button button:hover{
+    background-color: rgb(185, 14, 10);
+}
+#config-content{
+    width: 100%;
+}
+#config-content tbody tr th{
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 300px;
+}
+#config-content tbody tr th:first-child{
+    width: 30%;
+}
+
+#config-content tbody tr:nth-child(odd){
+    background: #f2f2f2;
+}
+.content-product-configuration-text{
+    width: 100%;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content-product-detail-top{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+}
+.content-product-detail-top a {
+    font-size: 20px;
+    font-weight: bold;
+    color:#000;
+}
+.content-product-detail-top a:hover{
+    color:#d70018;
+}
+.content-product-detail-top > span {
+        margin: 0 20px;
+        font-size: 20px;
+        font-weight: bold;
+}
+.product__delivery {
+    margin-top: 20px;
+}
+.product__delivery .title {
+    font-size: 18px;
+    font-family: rb;
+    line-height: 30px;
+}
+.product-baohanh{
+    display: flex;
+    padding: 10px;
+    font-family: rr;
+}
+.product__delivery-item {
+    display: flex;
+    padding: 10px;
+    font-family: rr;
+}
+.product-chinhsach i{
+    margin-right: 10px;
+    color: #28135d;
+}
+.product-tinhtrang {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+@media (max-width:1075px){
+    .content-product-detail-img{
+        width: 50%;
+        padding: 20px;
+    }
+    .content-product-detail-info{
+        width: 50%;
+        padding:20px;
+    }
+    .content-product-detail-configuration{
+        width: 100%;
+    }
+}
+@media (max-width:700px){
+    .content-product-detail-img{
+        width: 100%;
+        padding: 20px;
+    }
+    .content-product-detail-info{
+        width: 100%;
+        padding:20px;
+    }
+    .content-product-detail-configuration{
+        width: 100%;
+        padding:20px;
+    }
+}

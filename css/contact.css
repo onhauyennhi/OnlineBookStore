@@ -1,0 +1,45 @@
+.form{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+} 
+.form-left{
+    width: 50%;
+    margin-right: 20px;
+}
+.form-right {
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+}
+.form-right-contact{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+h7{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-bottom: 7px;
+    color:red;
+}
+h3{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: red;
+    font-family: sans-serif;
+}
+.content1{
+    width: 505px;
+    height: 240px;
+}
+.button3{
+    border-radius: 5px;
+    width: 505px;
+    height: 40px;
+    background-color: red;
+}
+.button3:hover{
+    background:#717171;
+    font-size: 13.5px;
+}
